@@ -23,4 +23,7 @@ describe Solver do
     expect(subject.fizzbuzz(9)).to eq('fizz')
   end
 
+  it 'should return buzz' do
+    expect(subject.fizzbuzz(10)).to eq('buzz')
+  end
 end
