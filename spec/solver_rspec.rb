@@ -1,7 +1,7 @@
 require_relative '../solver'
 
 describe Solver do
-  subject { Solver.new() }
+  subject { Solver.new }
 
   it 'should return the factorial of 6' do
     expect(subject.factorial(6)).to eq(720)

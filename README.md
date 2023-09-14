@@ -20,9 +20,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 OOP-school-library <a name="about-project"></a>
+# 📖 TDD project <a name="about-project"></a>
 
-This project demonstrates Object-Oriented Programming (OOP) concepts in Ruby by creating a simple school system. 
+TDD Project is a Ruby-based utility containing a class called Solver which performs a variety of basic operations. The project is developed using Test-Driven Development (TDD). 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,10 +40,10 @@ This project demonstrates Object-Oriented Programming (OOP) concepts in Ruby by 
 ### Key Features <a name="key-features"></a>
 
 
-- **Object-Oriented Design**
-- **Inheritance**
-- **Encapsulation**
-- **Method Overriding**
+- **Factorial Calculation**
+- **String Reversal**
+- **FizzBuzz Logic**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +65,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:bohaz/OOP-school-library.git
+  git clone git@github.com:Javivy/tdd-ruby.git
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -109,7 +109,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/bohaz/OOP-school-library/issues).
+Feel free to check the [issues page](https://github.com/Javivy/tdd-ruby/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,6 +130,6 @@ We would like to thaks Microverse for giving me the oportunity to build and cont
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/bohaz/OOP-school-library/blob/dev/MIT.md) licensed.
+This project is [MIT](https://github.com/Javivy/tdd-ruby/blob/tdd-project/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
