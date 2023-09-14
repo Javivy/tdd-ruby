@@ -10,4 +10,12 @@ describe Solver do
   it 'should return the factorial of 5' do
     expect(subject.factorial(6)).to eq(720)
   end
+
+  it 'should return the reverse version of tomorrow' do
+    expect(subject.reverse('tomorrow')).to eq('worromot')
+  end
+
+  it 'should return the reverse version of hello' do
+    expect(subject.reverse('hello')).to eq('olleh')
+  end
 end
