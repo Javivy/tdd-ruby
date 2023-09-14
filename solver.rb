@@ -1,6 +1,6 @@
 class Solver
   def factorial(number)
-    raise 'This method only accepts positive numbers' if n.negative?
+    raise 'This method only accepts positive numbers' if number.negative?
 
     result = 1
     current_n = 2

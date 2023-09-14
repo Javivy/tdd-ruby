@@ -8,7 +8,7 @@ describe Solver do
   end
 
   it 'should return the factorial of 5' do
-    expect(subject.factorial(6)).to eq(720)
+    expect(subject.factorial(5)).to eq(120)
   end
 
   it 'should return the reverse version of tomorrow' do
