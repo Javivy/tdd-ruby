@@ -12,7 +12,7 @@ describe Solver do
   end
 
   it 'should raise an error' do
-    expect{subject.factorial(-2)}.to raise_error('This method only accepts positive numbers')
+    expect { subject.factorial(-2) }.to raise_error('This method only accepts positive numbers')
   end
 
   it 'should return the reverse version of tomorrow' do
