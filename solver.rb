@@ -1,16 +1,14 @@
 class Solver
-  def factorial(n)
+  def factorial(num)
     result = 1
     current_n = 2
 
-    if n.zero?
+    if num.zero?
       return 1
-    elsif n == 1
-      return 1
-    elsif n.negative?
+    elsif num.negative?
       raise 'This method only accepts positive numbers'
     else
-      while current_n <= n
+      while current_n <= num
         result = (current_n * result)
         current_n += 1
       end
@@ -23,15 +21,15 @@ class Solver
     word.reverse
   end
 
-  def fizzbuzz(n)
-    if n % 3 == 0 and n % 5 == 0
+  def fizzbuzz(num)
+    if num % 3 == 0 and num % 5 == 0
       return 'fizzbuzz'
-    elsif n % 5 == 0
+    elsif num % 5 == 0
       return 'buzz'
-    elsif n % 3 == 0
+    elsif num % 3 == 0
       return 'fizz'
     else
-      return n
+      return num
     end
   end 
 end
