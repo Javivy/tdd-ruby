@@ -30,4 +30,8 @@ describe Solver do
   it 'should return fizzbuzz' do
     expect(subject.fizzbuzz(15)).to eq('fizzbuzz')
   end
+
+  it 'should return number' do
+    expect(subject.fizzbuzz(7)).to eq(7)
+  end
 end
