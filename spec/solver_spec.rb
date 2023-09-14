@@ -7,8 +7,12 @@ describe Solver do
     expect(subject.factorial(6)).to eq(720)
   end
 
-  it 'should return the factorial of 5' do
-    expect(subject.factorial(5)).to eq(120)
+  it 'should return 1' do
+    expect(subject.factorial(0)).to eq(1)
+  end
+
+  it 'should raise an error' do
+    expect{subject.factorial(-2)}.to raise_error('This method only accepts positive numbers')
   end
 
   it 'should return the reverse version of tomorrow' do
