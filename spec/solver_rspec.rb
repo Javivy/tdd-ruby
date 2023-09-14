@@ -18,4 +18,9 @@ describe Solver do
   it 'should return the reverse version of hello' do
     expect(subject.reverse('hello')).to eq('olleh')
   end
+
+  it 'should return fizz' do
+    expect(subject.fizzbuzz(9)).to eq('fizz')
+  end
+
 end
