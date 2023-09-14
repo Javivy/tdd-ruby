@@ -1,19 +1,13 @@
 class Solver
-  def factorial(n)
+  def factorial(number)
+    raise 'This method only accepts positive numbers' if n.negative?
+
     result = 1
     current_n = 2
 
-    if n.zero?
-      return 1
-    elsif n == 1
-      return 1
-    elsif n.negative?
-      raise 'This method only accepts positive numbers'
-    else
-      while current_n <= n
-        result = (current_n * result)
-        current_n += 1
-      end
+    while current_n <= number
+      result *= current_n
+      current_n += 1
     end
 
     result
